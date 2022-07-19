@@ -7,11 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 .App {
   height: 100vh;
 }
@@ -122,3 +117,39 @@ h4 {
   font-style: italic;
 }
 /* Main component - end */
+
+
+/* media query - start */
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+
+  .topText {
+    font-size: .9rem;
+    top: 10px
+  }
+
+  .bottomText {
+    font-size: .9rem;
+    bottom: 10px
+  }
+}
+
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .header h2 {
+      font-size: 1.2rem;
+    }
+    
+    .header h4 {
+      font-size: .7rem;
+    }
+  
+    .topText {
+      font-size: .6rem;
+      top: 5px
+    }
+  
+    .bottomText {
+      font-size: .6rem;
+      bottom: 5px
+    }
+}
+/* media query - end*/
