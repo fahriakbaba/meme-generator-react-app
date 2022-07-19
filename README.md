@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+![Image](./public/images/meme.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
